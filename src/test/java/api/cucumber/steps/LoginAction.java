@@ -28,6 +28,7 @@ public class LoginAction {
     @And("user Enters{string} and {string}")
     public void userEntersAnd(String UserName, String Password) {
         System.out.println("Checking Changes in feature branch");
+        System.out.println("Trying stashing feature");
         System.out.println("Username is: "+ UserName+" Password is: "+ Password);
         driver.findElement(By.xpath("//input[@id='user-name']")).sendKeys(UserName);
         driver.findElement(By.xpath("//input[@id='password']")).sendKeys(Password);
