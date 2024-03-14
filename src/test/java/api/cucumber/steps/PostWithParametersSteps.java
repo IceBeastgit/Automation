@@ -6,10 +6,10 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class PostWithParametersSteps {
+
     @Given("User should be logged in and present at its own wall")
     public void userShouldBeLoggedInAndPresentAtItsOwnWall() {
-        System.out.printlln("User should be logged in and present at its own wall");
+        System.out.println("User should be logged in and present at its own wall");
     }
 
     @When("I type a message as {string} in text box")
